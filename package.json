@@ -1,0 +1,23 @@
+{
+  "name": "subslikescript-scraper",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install",
+    "apply-ci": "biome check --apply-unsafe . && biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "latest",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "bun-types": "latest",
+    "husky": "^8.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
