@@ -1,5 +1,5 @@
 {
-  "name": "subslikescript-scraper",
+  "name": "scraper-subslikescript",
   "module": "src/index.ts",
   "type": "module",
   "scripts": {

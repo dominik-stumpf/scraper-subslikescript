@@ -1,3 +1,3 @@
-# the-oven
+# scraper-subslikescript
 
-where pristine bun is baked (project template)
+Scrape transcripts, subtitles from [subslikescript](https://subslikescript.com) using a somewhat convenient terminal app.
